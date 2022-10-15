@@ -1,3 +1,5 @@
+# Code created by Helen Donohoe on 10 October 2022 & submited as Project 2 for Udacity course 'Programming for Data Science with Python'
+
 import time
 import pandas as pd
 import numpy as np
