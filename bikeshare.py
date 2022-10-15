@@ -202,9 +202,6 @@ def user_stats(df):
 def display_data(df):
     """Displays 5 rows of individal data at a time"""
 
-    #please check the iloc function. It returns dataframe based on the position. For example, df.iloc[0:5] will return the first 5 rows of data
-    #what should be our for/while condition? Remember, as long as the user does not enter no, we are inside in the loop.
-    #Dont forget to ask the question inside the loop, otherwise it will be infinite loop.
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0
     while True:
